@@ -38,7 +38,11 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text("Dictionary"),
         centerTitle: true,
       ),
-      body: Container(),
+      body: Container(
+        child: Column(
+          children: [Text("jfsjfj")],
+        ),
+      ),
     );
   }
 }
